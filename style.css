@@ -1,0 +1,302 @@
+body, html {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.title {
+  color: #009688;
+  margin-left: 13px;
+}
+
+.image{
+    border-radius: 75px;
+    padding: 10px;
+    max-width: 450px;
+}
+
+.content {
+  margin: auto;
+}
+
+.margin-top {
+  margin-top: 16px;
+}
+
+.margin-bottom {
+  margin-bottom: 16px;
+}
+
+.mim{
+    text-align: justify;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.column {
+  padding: 0 8px;
+}
+
+.third {
+  flex: 1 1 30%;
+}
+
+.twothird {
+  flex: 1 1 65%;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  padding: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.container {
+  padding: 16px;
+}
+
+.img-container img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  color: #000;
+}
+
+.bar {
+  width: 100%;
+  background-color: #ccc;
+  border-radius: 25px;
+  height: 18px;
+  margin: 4px 0 12px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  text-align: center;
+  line-height: 18px;
+  color: white;
+}
+
+.teal {
+  background-color: #009688;
+  color: white;
+}
+
+.date {
+  color: #009688;
+  background-color: white;
+}
+
+.white {
+  background-color: white;
+}
+
+.light-grey {
+  background-color: #f1f1f1;
+}
+
+.text-grey {
+  color: #757575;
+}
+
+.teal.text {
+  color: #009688;
+}
+
+.large {
+  font-size: 18px;
+}
+
+.opacity {
+  opacity: 0.8;
+}
+
+.padding {
+  padding: 16px 0;
+}
+
+.icon {
+  margin-right: 8px;
+  color: #009688;
+}
+
+.center {
+  text-align: center;
+}
+
+.hover-opacity:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 12px;
+  background-color: #009688;
+  color: #fff;
+}
+
+.round {
+  border-radius: 25px;
+}
+
+.span {
+    font-size: 12px;
+}
+
+.wrapper {
+  width: 100%;
+  /*! border: 2px dotted rgb(96 139 168); */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.prop {
+  flex: 1 1 65%;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  margin: 0 8px;
+}
+
+.ag-format-container {
+  width: 1142px;
+  margin: 0 auto;
+}
+
+.ag-courses_item {
+  flex-basis: calc(33.33333% - 30px);
+  margin: 0 15px 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  padding: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.ag-courses-item_link {
+  display: block;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+
+.ag-courses-item_link:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.ag-courses-item_link:hover .ag-courses-item_bg {
+  -webkit-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
+}
+
+.ag-courses-item_title {
+  min-height: 87px;
+  margin: 0 0 25px;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 30px;
+  color: #000;
+  opacity: 0.8;
+  z-index: 2;
+  position: relative;
+  text-decoration: none;
+}
+
+.ag-courses-item_title:hover {
+  min-height: 87px;
+  margin: 0 0 25px;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 30px;
+  color: #fff;
+  opacity: 0.8;
+  z-index: 2;
+  position: relative;
+  text-decoration: none;
+}
+
+.ag-courses-item_date-box {
+  font-size: 18px;
+  color: #000;
+}
+
+.ag-courses-item_date {
+  font-weight: bold;
+  color: #000;
+  -webkit-transition: color .5s ease;
+  -o-transition: color .5s ease;
+  transition: color .5s ease
+}
+
+.ag-courses-item_bg {
+  height: 128px;
+  width: 128px;
+  background-color: #009688;
+  z-index: 1;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+  border-radius: 50%;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+@media only screen and (max-width: 979px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: calc(50% - 30px);
+    flex-basis: calc(50% - 30px);
+  }
+  .ag-courses-item_title {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .ag-format-container {
+    width: 96%;
+  }
+
+}
+@media only screen and (max-width: 639px) {
+  .ag-courses_item {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  .ag-courses-item_title {
+    min-height: 72px;
+    line-height: 1;
+
+    font-size: 24px;
+  }
+  .ag-courses-item_link {
+    padding: 22px 40px;
+  }
+  .ag-courses-item_date-box {
+    font-size: 16px;
+  }
+}
